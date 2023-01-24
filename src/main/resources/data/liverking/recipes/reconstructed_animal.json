@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "MBM",
+        "KOL",
+        "MSM"
+    ],
+    "key": {
+        "M": {
+            "tag": "liverking:raw_meats"
+        },
+        "B": {
+            "item": "liverking:brain"
+        },
+        "K": {
+            "item": "liverking:kidney"
+        },
+        "O": {
+            "item": "minecraft:bone"
+        },
+        "L": {
+            "item": "liverking:liver"
+        },
+        "S": {
+            "item": "liverking:stomach"
+        }
+    },
+    "result": {
+        "item": "liverking:reconstructed_animal",
+        "count": 1
+    }
+}

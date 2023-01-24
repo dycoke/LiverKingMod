@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "GSG",
+        "GRG",
+        " I "
+    ],
+    "key": {
+        "G": {
+            "item": "minecraft:glass_pane"
+        },
+        "S": {
+            "item": "minecraft:sugar"
+        },
+        "R": {
+            "item": "liverking:reconstructed_animal"
+        },
+        "I": {
+            "item": "minecraft:iron_ingot"
+        }
+    },
+    "result": {
+        "item": "liverking:steroids",
+        "count": 8
+    }
+}

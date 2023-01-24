@@ -20,6 +20,7 @@ public class ItemMixin {
     private void finishUsingMixin(ItemStack stack, World world, LivingEntity entity, CallbackInfoReturnable<ItemStack> info) {
         if(!world.isClient() && stack.isFood() && entity instanceof PlayerEntity player) {
             String itemName = stack.getItem().toString();
+            System.out.println(itemName);
             for(int i = 0; i < LiverKing.PrimalFoodNames.length; i++) {
                 if(itemName.equals(LiverKing.PrimalFoodNames[i])) {
                     PrimalData.addPrimal((IEntityDataSaver) player, LiverKing.PrimalFoodEnergy[i]);

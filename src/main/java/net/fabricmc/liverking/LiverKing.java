@@ -14,8 +14,8 @@ public class LiverKing implements ModInitializer {
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
 	//primal energy bar
-	public static final String[] PrimalFoodNames = {"steroids", "liver", "stomach", "beef", "chicken", "rabbit", "mutton", "porkchop", "cod", "salmon", "tropical_fish"};
-	public static final int[] PrimalFoodEnergy = {6, 4, 3, 1, 1, 1, 1, 1, 1, 1, 1};
+	public static final String[] PrimalFoodNames = {"steroids", "liver", "kidney", "brain", "stomach", "reconstructed_animal", "beef", "chicken", "rabbit", "mutton", "porkchop"};
+	public static final int[] PrimalFoodEnergy = {5, 3, 3, 3, 3, 8, 1, 1, 1, 1, 1};
 
 
 	@Override
