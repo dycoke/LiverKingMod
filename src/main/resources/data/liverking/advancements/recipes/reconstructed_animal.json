@@ -1,12 +1,12 @@
 {
     "parent": "minecraft:recipes/root",
     "criteria": {
-        "has_bone": {
+        "has_heart": {
             "conditions": {
                 "items": [
                     {
                         "items": [
-                            "minecraft:bone"
+                            "liverking:heart"
                         ]
                     }
                 ]
@@ -22,7 +22,7 @@
     },
     "requirements": [
         [
-            "has_bone",
+            "has_heart",
             "has_the_recipe"
         ]
     ],

@@ -2,7 +2,7 @@
     "type": "minecraft:crafting_shaped",
     "pattern": [
         "MBM",
-        "KOL",
+        "KHL",
         "MSM"
     ],
     "key": {
@@ -15,8 +15,8 @@
         "K": {
             "item": "liverking:kidney"
         },
-        "O": {
-            "item": "minecraft:bone"
+        "H": {
+            "item": "liverking:heart"
         },
         "L": {
             "item": "liverking:liver"

@@ -1,5 +1,9 @@
 {
     "item.liverking.steroids": "Steroids",
     "item.liverking.liver": "Liver",
-    "item.liverking.stomach": "Stomach"
+    "item.liverking.stomach": "Stomach",
+    "item.liverking.brain": "Brain",
+    "item.liverking.kidney": "Kidney",
+    "item.liverking.heart": "Heart",
+    "item.liverking.reconstructed_animal": "Reconstructed Animal"
 }
